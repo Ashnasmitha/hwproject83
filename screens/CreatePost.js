@@ -2,12 +2,12 @@ import * as React from 'react';
 import { View,Text,StyleSheet,SafeAreaView,Platform,StatusBar,Image,ScrollView,TextInput} from 'react-native';
 
 import DropDownPicker from 'react-native-dropdown-picker';
-import {RFValue} from 'react-native-responsive-fontsize';
+import {RFValue} from "react-native-responsive-fontsize";
 
 import AppLoading from "expo-app-loading";
 
 export default class CreatePost extends React.Component{
-   construcot(props){
+   constructor(props){
       super(props);
       this.state={
         dropDownHeight:40,
@@ -22,11 +22,11 @@ export default class CreatePost extends React.Component{
     }
     else{
       let preview_images={
-        image_1:require('../assets/image_1.pg'),
-        image_2:require('../assets/image_2.pg'),
-        image_3:require('../assets/image_3.pg'),
-        image_4:require('../assets/image_4.pg'),
-        image_5:require('../assets/image_5.pg')
+        image_1:require('../assets/image_1.jpg'),
+        image_2:require('../assets/image_2.jpg'),
+        image_3:require('../assets/image_3.jpg'),
+        image_4:require('../assets/image_4.jpg'),
+        image_5:require('../assets/image_5.jpg')
     }
     
   return(

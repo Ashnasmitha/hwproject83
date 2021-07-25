@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View,Text,StyleSheet,Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {RFValue} from 'react-native-responsive-fontsize';
+import {RFValue} from "react-native-responsive-fontsize";
 
 
 export default class PostCard extends React.Component{

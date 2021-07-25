@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View,Text,StyleSheet,SafeAreaView, Platform, StatusBar,Image } from 'react-native';
-import {RFValue} from 'react-native-responsive-fontsize';
+import {RFValue} from "react-native-responsive-fontsize";
 import {FlatList} from 'react-native-gesture-handler';
 
 import PostCard from './PostCard';
@@ -78,6 +78,6 @@ const styles=StyleSheet.create({
     fontSize:RFValue(28)
   },
   cardContainer:{
-    flex:0.05
+    flex:0.85
   }
 })
